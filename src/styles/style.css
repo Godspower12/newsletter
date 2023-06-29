@@ -15,8 +15,8 @@
 .body .container {
   display: flex;
   justify-content: center;
-  width: 60%;
-  height: 80%;
+  width: 40%;
+  height: 60%;
   background: hsl(0, 0%, 100%);
   border-radius: 10px;
 }
@@ -26,19 +26,19 @@
 .body .container .info-section {
   display: flex;
   flex-direction: column;
-  margin-top: 50px;
-  width: 55%;
-  padding: 10px 50px;
+  margin-top: 10px;
+  width: 50%;
+  padding: 10px 20px;
 }
 .body .container .info-section h1 {
-  font-size: 3.5rem;
+  font-size: 2rem;
   margin-bottom: 10px;
 }
 .body .container .info-section p {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 .body .container .info-section .list {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   display: flex;
   flex-direction: column;
 }
@@ -61,7 +61,7 @@
 }
 .body .container .info-section .input-area form .input {
   width: 100%;
-  padding: 15px 5px;
+  padding: 10px 5px;
   margin-bottom: 15px;
   margin-top: 2px;
   border-radius: 5px;
@@ -69,7 +69,7 @@
 }
 .body .container .info-section .input-area form button {
   width: 100%;
-  padding: 15px 0px;
+  padding: 10px 0px;
   margin-bottom: 15px;
   border-radius: 5px;
   border: 1px solid;
@@ -88,7 +88,7 @@
   color: red;
 }
 .body .container .card-display {
-  width: 45%;
+  width: 50%;
   display: flex;
   padding: 10px 10px;
 }
