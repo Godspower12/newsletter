@@ -92,6 +92,7 @@ const handleSubmit = (e) => {
         </div>
         </div>
         } 
+        <p>Developed by Gp</p>
     </div>
   )
 }      

@@ -8,8 +8,13 @@
    height: 100vh;
    width: 100%;
    display: flex;
+   flex-direction: column;
     justify-content: center;
     align-items: center;
+    
+    p {
+     margin-top: 10px;
+    }
 
 .container {
     display: flex;
@@ -153,6 +158,7 @@ img {
     .body {
         width: 100%;
         height: 100%;
+        background: white;
         
         .container {
             width: 100%;
