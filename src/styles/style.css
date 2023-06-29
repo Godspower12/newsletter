@@ -19,8 +19,8 @@
 .body .container {
   display: flex;
   justify-content: center;
-  width: 40%;
-  height: 60%;
+  width: 50%;
+  height: 70%;
   background: hsl(0, 0%, 100%);
   border-radius: 10px;
 }
@@ -30,7 +30,7 @@
 .body .container .info-section {
   display: flex;
   flex-direction: column;
-  margin-top: 10px;
+  margin-top: 30px;
   width: 50%;
   padding: 10px 20px;
 }
@@ -95,6 +95,9 @@
   width: 50%;
   display: flex;
   padding: 10px 10px;
+}
+.body .container .card-display img {
+  width: 100%;
 }
 .body .error {
   border: 0.5px solid red;
@@ -175,6 +178,7 @@
   }
   .body .success-msg img {
     margin-top: 80px;
+    width: 100%;
   }
 }
 
