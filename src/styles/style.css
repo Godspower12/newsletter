@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  background: hsl(234, 29%, 20%);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body .container {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  height: 80%;
+  background: hsl(0, 0%, 100%);
+  border-radius: 10px;
+}
+.body .container .mobile-card-display {
+  display: none;
+}
+.body .container .info-section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  width: 55%;
+  padding: 10px 50px;
+}
+.body .container .info-section h1 {
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+}
+.body .container .info-section p {
+  margin-bottom: 10px;
+}
+.body .container .info-section .list {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.body .container .info-section .list p {
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+.body .container .info-section span {
+  display: flex;
+  align-items: center;
+}
+.body .container .info-section .input-area {
+  display: flex;
+  flex-direction: column;
+}
+.body .container .info-section .input-area form {
+  width: 100%;
+}
+.body .container .info-section .input-area form .input {
+  width: 100%;
+  padding: 15px 5px;
+  margin-bottom: 15px;
+  margin-top: 2px;
+  border-radius: 5px;
+  border: 0.5px solid;
+}
+.body .container .info-section .input-area form button {
+  width: 100%;
+  padding: 15px 0px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid;
+  background: hsl(234, 29%, 20%);
+  cursor: pointer;
+  color: white;
+}
+.body .container .info-section .input-area form button:hover {
+  background: hsl(4, 100%, 67%);
+}
+.body .container .info-section .input-area form .lab {
+  display: flex;
+  justify-content: space-between;
+}
+.body .container .info-section .input-area form .lab p {
+  color: red;
+}
+.body .container .card-display {
+  width: 45%;
+  display: flex;
+  padding: 10px 10px;
+}
+.body .error {
+  border: 0.5px solid red;
+  width: 100%;
+  padding: 15px 5px;
+  margin-bottom: 15px;
+  margin-top: 2px;
+  border-radius: 5px;
+  background: rgb(245, 245, 234);
+}
+.body .success-msg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30%;
+  padding: 30px;
+  height: 60%;
+  background: hsl(0, 0%, 100%);
+  border-radius: 10px;
+}
+.body .success-msg img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+.body .success-msg h1 {
+  font-size: 3rem;
+  font-weight: bolder;
+  margin-bottom: 15px;
+}
+.body .success-msg button {
+  width: 100%;
+  padding: 15px 0px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid;
+  background: hsl(234, 29%, 20%);
+  cursor: pointer;
+  color: white;
+}
+.body .success-msg button:hover {
+  background: hsl(4, 100%, 67%);
+}
+
+@media screen and (max-width: 425px) {
+  .body {
+    width: 100%;
+    height: 100%;
+  }
+  .body .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+  }
+  .body .container .mobile-card-display {
+    display: block;
+    width: 100%;
+  }
+  .body .container .info-section {
+    width: 100%;
+    padding: 10px 30px;
+  }
+  .body .container .info-section h1 {
+    font-size: 2.5rem;
+  }
+  .body .container .card-display {
+    display: none;
+  }
+  .body .success-msg {
+    width: 100%;
+    padding: 30px;
+    border-radius: 0px;
+  }
+  .body .success-msg img {
+    margin-top: 80px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
